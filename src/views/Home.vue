@@ -7,24 +7,24 @@
     </div>
     <div class="row">
       <div class="col">
-        <h3 class="text-center">left</h3>
+        <p class="text-center">lib: vue-mapbox/mapbox-gl</p>
       </div>   
       <div class="col">
        <Mapa1 />
       </div>
       <div class="col">
-        <h3 class="text-center">right</h3>
+        <h3 class="text-center">Stats</h3>
       </div>  
     </div>
      <div class="row">
       <div class="col">
-        <h3 class="text-center">left</h3>
+        <p class="text-center">lib: mapbox-gl-vue</p>
       </div>   
       <div class="col">
         <Mapa2 />
       </div>
       <div class="col">
-        <h3 class="text-center">right</h3>
+        <h3 class="text-center">Stats</h3>
       </div>  
     </div>
   </div>
@@ -57,7 +57,5 @@ export default {
     width: 100%;
     max-width: 100%;
   }
-
- 
 
 </style>
