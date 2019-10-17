@@ -1,18 +1,63 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center"> Encabezado</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3 class="text-center">left</h3>
+      </div>   
+      <div class="col">
+       <Mapa1 />
+      </div>
+      <div class="col">
+        <h3 class="text-center">right</h3>
+      </div>  
+    </div>
+     <div class="row">
+      <div class="col">
+        <h3 class="text-center">left</h3>
+      </div>   
+      <div class="col">
+        <Mapa2 />
+      </div>
+      <div class="col">
+        <h3 class="text-center">right</h3>
+      </div>  
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+// 
+import Mapa2 from '../components/Mapa2'
+import Mapa1 from '../components/Mapa1'
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    Mapa2,
+    Mapa1
   }
 };
 </script>
+
+<style scoped>
+  .container {
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+  }
+
+  .fill {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+ 
+
+</style>

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "title": "Total Registro Proyectos",
+    "subTitle": "Modalidades",
+    "leguendData": ["Individual", "Grupo", "Sinergia"],
+    "seriesName": "Modalidades",
+    "seriesData": [
+      {"name": "Individual", "value": 25},
+      {"name": "Grupo", "value": 17},
+      {"name": "Sinergia", "value": 9}
+    ]
+  }
+}

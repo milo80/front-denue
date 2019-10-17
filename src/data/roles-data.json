@@ -1,0 +1,24 @@
+{
+  "data": {
+    "title": "Total Rol Participante",
+    "subTitle": "",
+    "subLink": "",
+    "leguendData": ["Participante",
+                    "Responsable Técnico",
+                    "Co-Responsable Administrativo",
+                    "Co-Responsable Técnico", 
+                    "Responsable Administrativo",
+                    "Co-Representante Legal",
+                    "Representante Legal"
+    ],
+    "seriesName": "Rol Participantes",
+    "seriesData": [{"name": "Participante", "value":	17},
+                  {"name": "Responsable Técnico", "value":	28},
+                  {"name": "Co-Responsable Administrativo", "value":	17},
+                  {"name": "Co-Responsable Técnico", "value":	21},
+                  {"name": "Responsable Administrativo", "value":	16},
+                  {"name": "Co-Representante Legal", "value":	17},
+                  {"name": "Representante Legal", "value":	15}
+    ]
+  }
+}

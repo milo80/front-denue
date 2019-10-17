@@ -1,0 +1,21 @@
+{
+  "nacion": {
+    "title": "Nacionalidad Participantes",
+    "subTitle": "Source",
+    "subLink": "https://www.inegi.org.mx",
+    "leguendData": [],
+    "seriesName": "Nacionalidades",
+    "scaleBar": {
+      "max": 50,
+      "min": 0
+    },
+    "seriesData": [
+      {"name": "Mexico", "value": 50},
+      {"name": "Chile", "value": 19},
+      {"name": "Spain", "value": 11},
+      {"name": "Brazil", "value": 8},
+      {"name": "China", "value": 5},
+      {"name": "Afghanistan","value": 1}
+    ]
+  }
+}
